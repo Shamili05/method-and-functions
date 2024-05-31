@@ -1,0 +1,12 @@
+class MyClass:
+    def __init__(self, num):
+        self.num=num
+        
+    def even(self):
+        if num % 2==0:
+         return "The number is even"
+        else:
+         return "The number is odd"
+
+n = MyClass(int(input("enter the number:")))
+print(n.even())
